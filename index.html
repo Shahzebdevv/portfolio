@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link href="styles.css" rel="stylesheet">
+    <link rel="icon" type="image" sizes="32x32" href="img/icons8-source-code-32.png">
+    <title>My Webpage</title>
+</head>
+
+<body>
+    <header>
+        <h1>Shahzeb</h1>
+        <nav>
+            <ul>
+                <li><a href="./about.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+                <li><a href="./now.html">Now</a></li>
+            </ul>
+        </nav>
+        <button onclick="runDarkness()">Dark</button>
+    </header>
+    <main>
+        <section>
+            <div class="container col-xxl-8 px-4 py-5">
+                <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                    <div class="col-10 col-sm-8 col-lg-6"> <img
+                            src="https://devfolio.co/_next/image?url=https%3A%2F%2Fassets.devfolio.co%2Fusers%2F610434861c884270b578561be8958a8e%2Favatar-e0e63ddb-fe89-44a8-b9ec-48df5160a247.jpeg&w=256&q=75"
+                            class="d-block mx-lg-auto img-fluid circle-photo" alt="Bootstrap Themes" width="300"
+                            height="300" loading="lazy">
+                    </div>
+                    <div class="col-lg-6">
+                        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Hi! I'm Mohammad Shahzeb Alam</h1>
+                        <p class="lead">a passionate Full Stack Developer with a strong foundation in building
+                            responsive,
+                            user-friendly, and dynamic web applications.
+
+                            My core tech stack includes:
+
+                            HTML – for clean, semantic markup
+
+                            CSS – for creating beautiful, responsive layouts
+
+                            JavaScript – to bring interactivity and logic to life
+
+                            Let’s build something awesome together!.</p>
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                            <a href="./about.html">
+                                <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Read My Story</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container px-4 py-5" id="featured-3">
+                <h2 class="pb-2 border-bottom">Technologies</h2>
+                <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+                    <div class="feature col">
+                        <div
+                            class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                            <svg class="bi" width="1em" height="1em" aria-hidden="true">
+                                <use xlink:href="#collection"></use>
+                            </svg>
+                        </div>
+                        <h3 class="fs-2 text-body-emphasis">HTML CSS</h3>
+                        <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another
+                            sentence
+                            and probably just keep going until we run out of words.</p>
+                    </div>
+                    <div class="feature col">
+                        <div
+                            class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                            <svg class="bi" width="1em" height="1em" aria-hidden="true">
+                                <use xlink:href="#people-circle"></use>
+                            </svg>
+                        </div>
+                        <h3 class="fs-2 text-body-emphasis">Javascript</h3>
+                        <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another
+                            sentence
+                            and probably just keep going until we run out of words.</p>
+                    </div>
+                    <div class="feature col">
+                        <div
+                            class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                            <svg class="bi" width="1em" height="1em" aria-hidden="true">
+                                <use xlink:href="#toggles2"></use>
+                            </svg>
+                        </div>
+                        <h3 class="fs-2 text-body-emphasis">React JS</h3>
+                        <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another
+                            sentence
+                            and probably just keep going until we run out of words.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        Copyright &#169; Shahzeb 2025
+    </footer>
+    <script>
+        function runDarkness() {
+            var element = document.body;
+            element.classList.toggle("dark-mode");
+        }
+    </script>
+</body>
+
+
+
+</html>
